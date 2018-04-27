@@ -7,7 +7,7 @@ import java.net.*;
 public final class VSlack {
 
   private static final String USER_AGENT="Mozilla/5.0";
-  final static String webhookURL = "https://hooks.slack.com/services/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";
+  final static String webhookURL = "your-webhook-url";//https://hooks.slack.com/services/
   
   public static void sendMessage(String message) {
     String payload = "{\"text\" : \""+message+"\"}";
